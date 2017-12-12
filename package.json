@@ -1,0 +1,40 @@
+{
+	"name": "reinvented-v2",
+	"version": "1.0.0",
+	"description": "Reinvented",
+	"author": "Lasse <contact@template01.info>",
+	"scripts": {
+		"dev": "nuxt",
+		"build": "nuxt build",
+		"start": "nuxt start",
+		"generate": "nuxt generate",
+		"lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+		"precommit": "npm run lint"
+	},
+	"config": {
+		"nuxt": {
+			"host": "0.0.0.0",
+			"port": "8080"
+		}
+	},
+	"dependencies": {
+		"@nuxtjs/bulma": "^1.1.0",
+		"axios": "^0.16.2",
+		"lodash": "^4.17.4",
+		"node-sass": "^4.7.2",
+		"nuxt": "^1.0.0-rc11",
+		"sass-loader": "^6.0.6"
+	},
+	"devDependencies": {
+		"babel-eslint": "^7.2.3",
+		"eslint": "^4.3.0",
+		"eslint-config-standard": "^10.2.1",
+		"eslint-loader": "^1.9.0",
+		"eslint-plugin-html": "^3.1.1",
+		"eslint-plugin-import": "^2.7.0",
+		"eslint-plugin-node": "^5.1.1",
+		"eslint-plugin-promise": "^3.5.0",
+		"eslint-plugin-standard": "^3.0.1"
+	},
+	"private": true
+}
