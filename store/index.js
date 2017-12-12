@@ -9,7 +9,7 @@ export const state = () => ({
   splashimagesloaded: false,
   showcontact: false,
   filterbarOpen: false,
-  apiRoot: 'http://placeholder-b.template-studio.nl/wp-json',
+  apiRoot: 'https://placeholder-b.template-studio.nl/wp-json',
   selectedVolume:initialSelected('volume'),
   selectedVolumecategory:initialSelected('volumecategory'),
   selectedArticletag:initialSelected('articletag'),
